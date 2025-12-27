@@ -17,6 +17,7 @@ public class Jagged2darray {
 			int a = scan.nextInt();
 			arr[i] = new int[a];
 		}
+		//classes input
 		
 		for(int i = 0;i<arr.length;i++)
 		{
@@ -27,6 +28,7 @@ public class Jagged2darray {
 				arr[i][j] = scan.nextInt();
 			}
 		}
+		//output
 		for(int i = 0;i<arr.length;i++)
 		{
 			for(int j = 0;j<arr[i].length;j++)
@@ -35,7 +37,8 @@ public class Jagged2darray {
 			}
 			System.out.println();
 		}
-
+		
 	}
-
+	
+	
 }

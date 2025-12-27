@@ -1,0 +1,1 @@
+package pack_27_12staticblock;
