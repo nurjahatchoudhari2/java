@@ -12,7 +12,7 @@ public class Signatures
 	}
 	
 	public static void main(int [] args) {
-		 System.out.println("int");
+		 System.out.println("int accepted");
 	}
 
 	public static void main() {
