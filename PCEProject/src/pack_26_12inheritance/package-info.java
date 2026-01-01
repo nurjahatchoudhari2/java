@@ -1,1 +1,0 @@
-package pack_26_12inheritance;
