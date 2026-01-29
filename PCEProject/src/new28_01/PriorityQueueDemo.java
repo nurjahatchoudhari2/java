@@ -9,6 +9,7 @@ public class PriorityQueueDemo
 		PriorityQueue pq = new PriorityQueue();
 		
 		pq.add(100);
+		pq.add(100);
 		pq.add(50);
 		pq.add(150);
 		pq.add(25);
