@@ -1,6 +1,9 @@
 package new28_01;
 
+import java.util.Enumeration;
+import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class LinkedListDemo {
 	public static void main(String [] args)
@@ -30,6 +33,53 @@ public class LinkedListDemo {
 		System.out.println(l2.poll());
 		System.out.println(l2);
 		
+		
+		for (int i=0; i<l1.size(); i++)
+		{
+			System.out.println(l1);
+		}
+			
+		for (Object  a : l1)
+		{
+			System.out.print(a);
+		}
+			
+		
+		System.out.println();
+			
+		Iterator i = l1.iterator();
+		while(i.hasNext())
+		{
+			System.out.print(i.next() + " ");
+		}
+			
+		System.out.println();
+			
+		ListIterator i1 = l1.listIterator();
+		while(i1.hasNext())
+		{
+			System.out.print(i1.next()+" ");
+		}
+			
+		System.out.println();
+			
+		Iterator i2 = l1.descendingIterator();
+        {
+        	System.out.print(i2 + " ");
+        }
+        
+        System.out.println();
+
+//      Enumeration en = l2.elements();	 
+//      while(en.hasMoreElements())
+//		{
+//			System.out.print(en.nextElement() + "   ");
+//		}
+//	 		
+
+			
+		}
+
+		
 	}
 	
-}

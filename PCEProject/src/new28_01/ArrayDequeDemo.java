@@ -1,6 +1,8 @@
 package new28_01;
 
 import java.util.ArrayDeque;
+import java.util.Iterator;
+import java.util.ListIterator;
 
 public class ArrayDequeDemo 
 {
@@ -17,6 +19,8 @@ public class ArrayDequeDemo
 		ad.add(1);
 		ad.addFirst(20);
 		System.out.println(ad);
+		
+	 
 		
 	}
 
